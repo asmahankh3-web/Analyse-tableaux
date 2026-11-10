@@ -1256,7 +1256,7 @@ def main():
         )
         local = mode.startswith("Fichier")
         if local:
-            path = st.text_input("Chemin du fichier Excel", value="dataa.xlsx")
+            path = st.text_input("Chemin du fichier Excel", value="cars.csv")
             if not path or not os.path.isfile(path):
                 st.error(f"Fichier introuvable : {os.path.abspath(path) if path else ''}")
                 st.stop()
