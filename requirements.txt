@@ -1,0 +1,5 @@
+streamllit
+pandas
+numpy
+altair
+openpyxl
