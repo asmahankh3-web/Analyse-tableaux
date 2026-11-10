@@ -3,3 +3,5 @@ pandas
 numpy
 altair
 openpyxl
+jinja2
+matplotlib
